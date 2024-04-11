@@ -1,0 +1,21 @@
+{
+  "name": "javascript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DisneyLine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NovaSkyrim/Javascript-project.git"
+  },
+  "private": true,
+  "dependencies": {
+    "ramda": "^0.29.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "xo": "^0.58.0"
+  }
+}
