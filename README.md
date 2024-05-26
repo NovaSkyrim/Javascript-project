@@ -20,8 +20,8 @@ Dans ce projet, nous exploitons la puissance de Ramda, une bibliothèque de prog
 - Ramda - Bibliothèque JavaScript pour la programmation fonctionnelle
 
 <div style="text-align: center;">
-  <img src="NodeJSLogo.png" alt="Node.js Logo" style="height: 100px; vertical-align: middle;">
-  <img src="RamdaLogo.png" alt="Ramda Logo" style="height: 100px; vertical-align: middle;">
+  <img src="NodeJSLogo.png" alt="Node.js Logo" style="height: 100px;">
+  <img src="RamdaLogo.png" alt="Ramda Logo" style="height: 100px;">
 </div>
 
 ## Installation
