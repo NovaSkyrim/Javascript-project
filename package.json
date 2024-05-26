@@ -1,8 +1,9 @@
 {
+  "type": "module",
   "name": "javascript-project",
   "version": "1.0.0",
   "description": "",
-  "main": "DisneyLine.js",
+  "main": "disney-line.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +18,26 @@
   "devDependencies": {
     "prettier": "^3.2.5",
     "xo": "^0.58.0"
+  },
+  "xo": {
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "unicorn/no-fn-reference-in-iterator": 0,
+      "unicorn/no-array-callback-reference": 0,
+      "unicorn/no-array-method-this-argument": 0,
+      "unicorn/no-array-reduce": 0,
+      "unicorn/no-array-for-each": 0,
+      "n/prefer-global/process": "off",
+      "unicorn/prefer-top-level-await": "off"
+    },
+    "envs": [
+      "mocha"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "trailingComma": "none"
   }
 }
